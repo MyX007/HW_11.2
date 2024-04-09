@@ -6,6 +6,6 @@ def capitalize_all_letters(text):
 
 def capitalize_first_letters(text):
     """
-    Capitalize first letters in all words
+    Capitalize first letters in all words.
     """
     return " ".join(word.capitalize() for word in text.split())
